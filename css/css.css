@@ -1,0 +1,23 @@
+body {
+
+    text-align: center;
+    background-image: url('../img/espaco-sideral.jpg');
+
+
+}
+
+.kapa {
+    color: rgb(0, 49, 49);
+}
+
+.capa {
+    color: darkgreen;
+}
+
+.kaka {
+    color: darkblue;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

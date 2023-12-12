@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript OBS: colocar no final do arquivo html -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="center">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="logaritmos.html">Logaritmos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="modular.html">Função Modular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="paepg.html">P.A e P.G</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="finaceira.html">Matemática Financeira</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="auto.html">Autoavaliação</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1>Progressão Aritmética:</h1>
+        <h2>Definição:</h2>
+        <p>A Progressão Aritmética (P.A.) é uma sequência de números em que a diferença entre dois termos consecutivos
+            é constante. Essa diferença constante é denominada razão da P.A.</p>
+        <p>Dessa forma, a partir do segundo termo da sequência, os números subsequentes são obtidos pela adição da
+            constante ao valor do termo anterior.</p>
+        <p>
+            Essa distinção é evidenciada pela maneira como os números são manipulados nas sequências. Na Progressão
+            Aritmética (P.A.), os números são obtidos pela adição da razão ao termo anterior, ao passo que, na
+            Progressão Geométrica (P.G.), os números são multiplicados pela razão.</p>
+        <p>As Progressões Aritméticas podem ser finitas, com um número determinado de termos, ou infinitas, continuando
+            indefinidamente. A notação com reticências é comumente utilizada para representar sequências infinitas, por
+            exemplo:</p>
+        <p>A sequência (4, 7, 10, 13, 16, ...) é uma P.A. infinita.Vai aumentando de 3 em 3.</p>
+        <p>A sequência (70, 60, 50, 40, 30, 20, 10) é uma P.A. finita.Vai diminuindo de 10 em 10.</p>
+        <p>Cada termo em uma P.A. é identificado por sua posição na sequência, representada pela letra a seguida de um
+            número que indica sua posição. Por exemplo, o termo a<sub>4</sub> na P.A. (2, 4, 6, 8, 10) é o número 8,
+            pois
+            ocupa a 4ª posição na sequência.</p>
+        <p>Dependendo do valor da razão a P.A pode ser classificada em:</p>
+        <p>Constante: quando a razão for igual a zero. Por exemplo: (4, 4, 4, 4, 4...), sendo r = 0.</p>
+        <p>Crescente: quando a razão for maior que zero. Por exemplo: (2, 4, 6, 8,10...), sendo r = 2.</p>
+        <p>Decrescente: quando a razão for menor que zero (15, 10, 5, 0, - 5,...), sendo r = - 5</p>
+        <h1>Fórmula do Termo Geral</h1>
+        <p>a<sub>n</sub>=a<sub>1</sub>+(n-1).r</p>
+        <p>Onde:</p>
+        <p>an: termo que queremos calcular</p>
+        <p>a1: primeiro termo da P.A.</p>
+        <p>n: posição do termo que queremos descobrir</p>
+        <p>r: razão</p>
+        <h2>Explicação:</h2>
+        <p>Como a razão de uma Progressão Aritmética (P.A.) é constante, podemos calcular seu valor a partir de
+            quaisquer termos consecutivos. Podemos expressar essa relação da seguinte forma:</p>
+        <p>r=a<sub>2</sub>-a<sub>1</sub>=a<sub>3</sub>​-a<sub>2</sub>​=a<sub>4</sub>​-a<sub>3</sub>​=…=a<sub>n</sub>​-a<sub>n</sub>-1​
+        </p>
+        <p>Dessa maneira, podemos encontrar o valor do segundo termo da P.A. utilizando a seguinte fórmula:</p>
+        <p>a<sub>2</sub>=a<sub>1</sub>+r</p>
+        <p>Ao aplicar o mesmo raciocínio para o terceiro termo, obtemos:</p>
+        <p>a <sub>3</sub>= a <sub>2</sub>+r=(a <sub>1</sub>+r)+r=a <sub>1</sub>+2r</p>
+        <p>Seguindo essa lógica, o n-ésimo termo (a<sub>n</sub>) pode ser expresso como:</p>
+        <p>a <sub>n</sub>=a <sub>1</sub>+(n-1)r</p>
+        <p>Essa fórmula do termo geral da P.A. nos permite determinar qualquer elemento em uma progressão aritmética com
+            base no primeiro termo (a<sub>1</sub>), na razão (r), e na posição do termo na sequência (n).</p>
+        <h1>Soma dos termos de uma PA finita:</h1>
+        <p>É possível somarmos todos os termos de uma P.A finita sem somarmos
+            um a um dos termos. É possível fazer isso desta maneira:</p>
+        <img src="img/WhatsApp Image 2023-12-06 at 21.49.18.jpeg">
+        <h1>Progressão Geométrica:</h1>
+        <p>Uma Progressão Geométrica (PG) é uma sequência de números em que cada termo, a partir do segundo, é o
+            resultado da multiplicação do termo anterior por uma constante denominada q. A Progressão Geométrica é
+            caracterizada pelo fato de que o quociente entre cada termo (a partir do segundo) e seu termo anterior
+            permanece constante e é representado pela razão q.</p>
+        <h1>Classificações:</h1>
+        <p>Crescente: cada termo é maior do que o anterior.</p>
+        <p>PG com termos positivos: 𝑞 > 1.</p>
+        <p>PG com termos negativos: 0 < 𝑞 < 1.</p>
+                <p>Constantes: cada termo é igual ao anterior.</p>
+                <p>PG com todos os termos nulos: 𝑎1 = 0 𝑒 𝑞 𝑞𝑢𝑎𝑙𝑞𝑢𝑒𝑟.</p>
+                <p>PG com termos iguais e não nulos: 𝑎 ≠ 0 𝑒 𝑞 = 1.</p>
+                <p>Decrescente: cada termo é menor que o anterior.</p>
+                <p>PG com termos positivos: 0 < 𝑞 < 1</p>
+                        <p>PG com termos negativos: 𝑞 > 1.</p>
+                        <p>Alternantes: cada termo tem sinal contrário ao do termo anterior. Isso ocorre quando 𝑞 < 0.</p>
+                        <p>Estacionárias: Apenas o primeiro termo é diferente de zero: 𝑎1 ≠ 0 𝑒 𝑞 = 0.</p>
+                        <p> Fórmula do Termo Geral:</p>
+                        <p>a <sub>n</sub>=a <sub>1</sub>*q <sup>n-1</sup></p>
+                        <h1>Impoetante</h1>
+                        <img src="img/WhatsApp Image 2023-12-06 at 22.00.10.jpeg" alt="">
+                        <h1>Soma dos termos de uma P.G finita </h1>
+                        <p>É possível somarmos todos os termos de uma P.G finita sem somarmos
+                            um a um dos termos. É possível fazer isso desta maneira:</p>
+                            <img src="img/WhatsApp Image 2023-12-06 at 22.01.48.jpeg" alt="">
+                            <h1>Exercícios:</h1>
+                            <p>Dada a PA 2 , 6 , 10 , 14 , … 2,6,10,14,…, determine o 8º termo.</p>
+                            <p>Em uma PG, o primeiro termo é 3 e a razão é 2. Encontre o valor do quarto termo.</p>
+                            <p>Considere a sequência 4 , 8 , 16 , 32 , … 4,8,16,32,…. Determine se é uma PA, PG ou ambas, e encontre o 5º termo.</p>
+                            <a href="paepg.html">Voltar ao início</a>
+</body>
+
+</html>
